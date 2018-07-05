@@ -3,7 +3,6 @@ as parameters and that returns a boolean value
 indicating whether or not a2's sequence of elements appears in a1 (true for yes, false for no). 
 The sequence of elements in a2 may appear anywhere in a1 but must appear consecutively and in the same order.*/
 
-
    public static int longestSortedSequence(int[] array) {
         if (array.length == 0) {
             return 0;
